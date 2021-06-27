@@ -2,6 +2,8 @@
 
 O Github User Search é uma aplicação desenvolvida para o processo seletivo da Compasso. Nela podemos procurar por usuários do Github e a aplicação nos desenvolverá suas informações. O projeto foi construído ao longo de 2 dias, usando React e fazendo o fetch da API do Github para trazer os dados do usuário.
 
+## [Visite](https://desafio-compasso-uol-1f5usaoac-kiwidev808.vercel.app/)
+
 ## ⛏ Tecnologias
 
 - [Javascript](https://www.javascript.com/)
