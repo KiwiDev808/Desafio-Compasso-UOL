@@ -1,14 +1,8 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
-import styled from 'styled-components'
 import { Loading } from '../../components'
 import { Navbar, RepoList, UserInfo, UserNotFound } from './components'
 import { useSearchUser } from './hooks'
-
-const PageContainer = styled.main`
-  display: flex;
-  flex-direction: column;
-`
 
 const UserPage = () => {
   const { username } = useParams()
