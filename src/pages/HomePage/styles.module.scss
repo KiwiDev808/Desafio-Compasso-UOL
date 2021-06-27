@@ -1,0 +1,23 @@
+.homePageContainer {
+  padding: 2rem 1rem;
+
+  form {
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    input {
+      width: 100%;
+      max-width: 700px;
+      height: 2rem;
+      padding: 1.125rem 0.5rem;
+      color: var(--black);
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+    }
+  }
+}

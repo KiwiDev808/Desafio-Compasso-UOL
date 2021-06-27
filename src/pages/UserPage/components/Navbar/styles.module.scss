@@ -1,0 +1,32 @@
+.navbarContainer {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  background: var(--gray-500);
+  padding: 0.75rem;
+
+  button {
+    all: unset;
+    color: var(--gray-100);
+    flex: 1;
+    padding: 0.5rem 1rem;
+    max-width: 100px;
+    cursor: pointer;
+  }
+
+  button:hover:not(.activeView) {
+    color: var(--white);
+    text-decoration: underline;
+    text-decoration-color: var(--gray-200);
+    text-underline-offset: 2px;
+    text-decoration-thickness: 4px;
+  }
+
+  .activeView {
+    text-decoration: underline;
+    text-decoration-color: var(--green-500);
+    text-underline-offset: 2px;
+    text-decoration-thickness: 4px;
+    color: var(--white);
+  }
+}

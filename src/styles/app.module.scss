@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  & > :first-child {
+    background: var(--gray-50);
+    flex-basis: 100px;
+    height: 100px;
+  }
+
+  & > :nth-child(2) {
+    flex: 1;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}

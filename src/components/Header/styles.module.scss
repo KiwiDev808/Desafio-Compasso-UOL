@@ -1,0 +1,30 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  max-width: 1020px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--gray-100);
+
+  color: var(--gray-800);
+
+  img {
+    max-height: 80%;
+  }
+
+  & > :nth-child(2) {
+    text-decoration: none;
+  }
+
+  h1:hover {
+    color: var(--green-500);
+  }
+
+  h1:active {
+    color: var(--red-600);
+  }
+}
