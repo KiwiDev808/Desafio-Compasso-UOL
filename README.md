@@ -27,10 +27,10 @@ O Github User Search é uma aplicação desenvolvida para o processo seletivo da
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/
+$ git clone https://github.com/KiwiDev808/Desafio-Compasso-UOL
 
 # Entre na pasta do projeto
-$ cd github-search
+$ cd Desafio-Compasso-UOL
 
 # Instale as dependências
 $ npm install / yarn install
