@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import { Loading } from '../../components'
 import { Navbar, RepoList, UserInfo, UserNotFound } from './components'
 import { useSearchUser } from './hooks'
+import styles from './styles.module.scss'
 
 const UserPage = () => {
   const { username } = useParams()
@@ -20,11 +21,11 @@ const UserPage = () => {
   }
 
   return (
-    <PageContainer>
+    <main className={styles.userPageContainer}>
       <UserInfo userData={userInfo} />
       <Navbar setView={setViewOption} view={viewOption} />
       <RepoList viewOption={viewOption} repos={repos} starreds={starreds} />
-    </PageContainer>
+    </main>
   )
 }
 
